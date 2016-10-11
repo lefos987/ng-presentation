@@ -1,0 +1,3 @@
+<p>Selection: {{ selectedAccount.name }}</p>
+<generic-list [allItems]="accounts"
+              [title]="'Account List'" (onSelect)="onAccountSelection($event)"></generic-list>
